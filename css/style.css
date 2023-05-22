@@ -5,6 +5,7 @@
   --primary-fontcolor: #434455;
   --primary-logocolor: #4d5ae5;
   --textcolor: #2e2f42;
+  --textcolor2: #f4f4fd;
   --primary-lineweight: 1.5;
 }
 
@@ -18,7 +19,8 @@ body {
 }
 .top-line {
 }
-.logo-link link {
+
+.logo.link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   text-transform: uppercase;
@@ -27,42 +29,38 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-logocolor);
   list-style: none;
+  text-decoration: none;
 }
+
 .logo-text {
   color: var(--textcolor);
 }
-.menu-nav list {
+
+.menu-nav.list {
   font-weight: 500;
 }
 
 .contact {
   font-style: normal;
 }
-.contact-link:hover,
-.contact-link:focus {
+.contact.link:hover,
+.contact.link:focus {
   color: #404bbf;
 }
 
-.contact list {
+.contact.list {
   font-style: none;
   font-weight: 400;
   line-height: 1.5;
   color: #434455;
 }
 
-.contact-link {
+.contact.link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-fontcolor);
 }
-.contact-tel {
-  font-style: normal;
-  font-weight: 400;
-
-  color: #434455;
-}
-
 .hero {
   background: var(--textcolor);
 }
@@ -96,7 +94,7 @@ body {
 .hero-btn-txt {
 }
 
-.name-sect .name-group {
+.name-sect2 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -104,34 +102,46 @@ body {
   color: var(--textcolor);
 }
 .pref-text {
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(---primary-fontcolor);
+}
+
+.name-sect3 {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--textcolor);
 }
 
 .preference-conteiner {
 }
-.preference list {
+.preference.list {
   list-style: none;
 }
 
 .preference-list li {
 }
 
-.doing-list {
-}
-.doing-list li {
-}
-.doing-conteiner {
-}
-.team-list {
+.doing.list {
+  list-style: none;
 }
 
-.team-list li {
+.team.list {
+  list-style: none;
+  background-color: #ffffff;
 }
-.team-conteiner {
-  background: #f4f4fd;
+.name-sect4 {
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--textcolor);
 }
 
-.footer-conteiner {
-  background: #2e2f42;
-  color: #f4f4fd;
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--textcolor2);
 }
