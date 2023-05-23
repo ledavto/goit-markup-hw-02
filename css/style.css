@@ -6,6 +6,7 @@
   --primary-logocolor: #4d5ae5;
   --textcolor: #2e2f42;
   --textcolor2: #f4f4fd;
+  --textlinknav: #404bbf;
   --primary-lineweight: 1.5;
 }
 
@@ -39,10 +40,20 @@ body {
 .menu-nav.list {
   font-weight: 500;
 }
+.menu-nav.link {
+  letter-spacing: 0.02em;
+  color:var(--textcolor);
+  text-decoration:none;
+}
+.menu-nav.link:hover,
+.menu-nav.link:{
+ color:var(--textlinknav);
+}
 
 .contact {
   font-style: normal;
 }
+
 .contact.link:hover,
 .contact.link:focus {
   color: #404bbf;
@@ -101,6 +112,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--textcolor);
 }
+
+.preference.list {
+  list-style: none;
+}
+
 .pref-text {
   font-size: 16px;
   line-height: 1.5;
@@ -114,17 +130,13 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--textcolor);
+  text-align: center;
 }
 
-.preference-conteiner {
-}
-.preference.list {
-  list-style: none;
-}
 
-.preference-list li {
+.team-conteiner{
+  background-color: #F4F4FD;
 }
-
 .doing.list {
   list-style: none;
 }
@@ -134,8 +146,18 @@ body {
   background-color: #ffffff;
 }
 .name-sect4 {
+  line-height: 1.11; 
   font-size: 36px;
-  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--textcolor);
+  text-transform: capitalize;
+}
+
+.name-group{
+  font-weight: 500;
+  line-height: 1.2; 
+  font-size: 20px;
   letter-spacing: 0.02em;
   color: var(--textcolor);
 }
