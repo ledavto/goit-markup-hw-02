@@ -163,3 +163,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--textcolor2);
 }
+
+/* PORFOLIO */
+.work.list {
+  list-style: none;
+}
