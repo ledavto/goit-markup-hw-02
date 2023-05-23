@@ -20,8 +20,6 @@ body {
   line-height: var(--primary-lineweight);
   font-weight: var(--primary-fontweight);
 }
-.top-line {
-}
 
 .logo.link {
   font-family: "Raleway", sans-serif;
