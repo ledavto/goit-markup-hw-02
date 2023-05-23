@@ -34,7 +34,7 @@ body {
 }
 
 .logo-text {
-  color: var(--textcolor);
+  color: var(--textcolor2);
 }
 
 .menu-nav.list {
@@ -161,7 +161,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--textcolor);
 }
-
+.footer-conteiner{
+  background-color:var(--textcolor);
+}
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
