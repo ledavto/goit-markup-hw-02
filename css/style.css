@@ -124,7 +124,7 @@ body {
   color: var(---primary-fontcolor);
 }
 
-.name-sect3 {
+.name-sect34 {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -146,14 +146,6 @@ body {
 .team.list {
   list-style: none;
   background-color: #ffffff;
-}
-.name-sect4 {
-  line-height: 1.11;
-  font-size: 36px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--textcolor);
-  text-transform: capitalize;
 }
 
 .name-group {
