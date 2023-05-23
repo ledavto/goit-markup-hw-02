@@ -42,12 +42,12 @@ body {
 }
 .menu-nav.link {
   letter-spacing: 0.02em;
-  color:var(--textcolor);
-  text-decoration:none;
+  color: var(--textcolor);
+  text-decoration: none;
 }
 .menu-nav.link:hover,
-.menu-nav.link:{
- color:var(--textlinknav);
+.menu-nav.link: {
+  color: var(--textlinknav);
 }
 
 .contact {
@@ -132,10 +132,12 @@ body {
   color: var(--textcolor);
   text-align: center;
 }
+.doing-conteiner {
+  background-color: #f4f4fd;
+}
 
-
-.team-conteiner{
-  background-color: #F4F4FD;
+.team-conteiner {
+  background-color: #f4f4fd;
 }
 .doing.list {
   list-style: none;
@@ -146,7 +148,7 @@ body {
   background-color: #ffffff;
 }
 .name-sect4 {
-  line-height: 1.11; 
+  line-height: 1.11;
   font-size: 36px;
   text-align: center;
   letter-spacing: 0.02em;
@@ -154,15 +156,15 @@ body {
   text-transform: capitalize;
 }
 
-.name-group{
+.name-group {
   font-weight: 500;
-  line-height: 1.2; 
+  line-height: 1.2;
   font-size: 20px;
   letter-spacing: 0.02em;
   color: var(--textcolor);
 }
-.footer-conteiner{
-  background-color:var(--textcolor);
+.footer-conteiner {
+  background-color: var(--textcolor);
 }
 .footer-text {
   line-height: 1.5;
