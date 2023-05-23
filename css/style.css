@@ -8,6 +8,8 @@
   --textcolor2: #f4f4fd;
   --textlinknav: #404bbf;
   --primary-lineweight: 1.5;
+  --btncolor: #4d5ae5;
+  --btnBGcolor: #f4f4fd;
 }
 
 body {
@@ -164,4 +166,33 @@ body {
 /* PORFOLIO */
 .work.list {
   list-style: none;
+}
+.filt-btn {
+  color: var(--btncolor);
+  text-align: center;
+  letter-spacing: 0.04em;
+  background: var(--btnBGcolor);
+}
+.filt-btn:hover,
+.filt-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.project.link {
+  text-decoration: none;
+}
+
+.project-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--textcolor);
+}
+.type-project {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(-primary-fontcolor);
 }
