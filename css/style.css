@@ -46,7 +46,7 @@ body {
   text-decoration: none;
 }
 .menu-nav.link:hover,
-.menu-nav.link: {
+.menu-nav.link: focus{
   color: var(--textlinknav);
 }
 
@@ -154,7 +154,7 @@ body {
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--textcolor2);
+  color: #f4f4fd;
 }
 
 /* PORFOLIO */
