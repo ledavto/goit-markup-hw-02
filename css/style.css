@@ -10,6 +10,7 @@
   --primary-lineweight: 1.5;
   --btncolor: #4d5ae5;
   --btnBGcolor: #f4f4fd;
+  --project-fontcolor: #2e2f42;
 }
 
 body {
@@ -47,7 +48,7 @@ body {
   text-decoration: none;
 }
 .menu-nav.link:hover,
-.menu-nav.link: focus {
+.menu-nav.link:focus {
   color: var(--textlinknav);
 }
 
@@ -139,6 +140,8 @@ body {
 
 .team.list {
   list-style: none;
+}
+.team-item {
   background-color: #ffffff;
 }
 
@@ -155,6 +158,9 @@ body {
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.footer-logo {
   color: #f4f4fd;
 }
 
@@ -182,12 +188,12 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--primary-fontcolor);
+  color: var(--project-fontcolor);
 }
 .type-project {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(-primary-fontcolor);
+  color: var(--primary-fontcolor);
 }
